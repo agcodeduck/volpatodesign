@@ -23,7 +23,7 @@ This repo shows how to deploy a Next.js app and a PostgreSQL database on a Ubunt
 2. **Download the deployment script**:
 
    ```bash
-   curl -o ~/deploy.sh https://raw.githubusercontent.com/leerob/next-self-host/main/deploy.sh
+   curl -o ~/deploy.sh https://raw.githubusercontent.com/agcodeduck/volpatodesign/main/deploy.sh
    ```
 
    You can then modify the email and domain name variables inside of the script to use your own.
@@ -49,7 +49,7 @@ This demo tries to showcase many different Next.js features.
 - Running code on server startup
 - A cron that hits a Route Handler
 
-View the demo at https://nextselfhost.dev to see further explanations.
+View the demo at https://volpatodesign.com.br to see further explanations.
 
 ## Deploy Script
 
@@ -67,7 +67,7 @@ I've included a Bash script which does the following:
 Once the deployment completes, your Next.js app will be available at:
 
 ```
-http://your-provided-domain.com
+http://www.volpatodesign.com.br
 ```
 
 Both the Next.js app and PostgreSQL database will be up and running in Docker containers. To set up your database, you could install `npm` inside your Postgres container and use the Drizzle scripts, or you can use `psql`:
